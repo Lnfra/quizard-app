@@ -11,7 +11,7 @@
     "start:client": "cd client && npm start",
     "start:dev:server": "cd server && npm start",
     "start:prod:server": "cd server && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd client && cross-env CI=true npm test"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Lnfra/quizard-app#readme",
   "dependencies": {
-    "concurrently": "^4.1.0"
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0"
   }
 }
