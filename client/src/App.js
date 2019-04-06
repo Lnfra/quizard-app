@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from './common/navBar';
+import NavBar from './components/common/navBar';
 import { Switch, Route } from 'react-router-dom';
 import QuizNameForm from './components/quizForm/QuizNameForm';
 import QuizQuestionForm from './components/quizForm/QuizQuestionForm';
