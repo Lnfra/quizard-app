@@ -1,0 +1,12 @@
+@import "./common/variables.scss";
+
+.root-container {
+  height: 100vh;
+  background-color: $c-blue-zodiac;
+}
+
+.quiz-name-form {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
