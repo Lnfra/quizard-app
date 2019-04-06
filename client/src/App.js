@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavBar from './common/navBar';
 import { Switch, Route } from 'react-router-dom';
-import QuizNameForm from './quizForm/quizNameForm';
-import QuizQuestionForm from './quizForm/quizQuestionForm';
+import QuizNameForm from './components/quizForm/QuizNameForm';
+import QuizQuestionForm from './components/quizForm/QuizQuestionForm';
 import "./App.scss";
 
 class App extends Component {
